@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 50px  !important;
+}
+
+p {
+    font-size: 16px  !important;
+}
+
+.top-hero button, #form-section button {
+    background: #029837;
+    border-radius: 20px;
+    width: 140px;
+}
+
+.col-lg-7 .top-hero {
+    margin-top: 130px;
+}
+
+.top-image img {
+    width: 103%;
+}
+
+#offer-section {
+    background: #F7FFF6;
+    ;
+}
+
+.offer-image img {
+    width: 75%;
+}
+
+.coach-section {
+    width: 60%;
+    margin-left: 20%;
+}
+
+#customer-section {
+    background: #F7FFF6;
+    
+}
+
+.card {
+    border: none;
+    border-radius: 10px
+}
+
+.c-details span {
+    font-weight: 300;
+    font-size: 13px
+}
+
+#form-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-section a,  #offer-section button, #coaching-section a {
+    border-radius: 20px;
+    width: 140px;
+}
+
+#appointment-section button {
+    border-radius: 20px;
+    width: 210px;
+}
+
+
+.footer-text p{
+    margin-top: 5%;
+    padding-bottom: 3%;
+    font-size: 5px;
+    text-align: center;
+}
+
+
+.registration-form{
+	padding: 30px 0;
+}
+
+.registration-form form{
+    background-color: #fff;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 70px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+
+.registration-form .item{
+	border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
+
+.registration-form .create-account{
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5791ff;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.top-hero button, #form-section button {
+    width: 418px;
+}
+
