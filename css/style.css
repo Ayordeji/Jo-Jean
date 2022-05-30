@@ -28,7 +28,7 @@ p {
 
 #offer-section {
     background: #F7FFF6;
-    ;
+    
 }
 
 .offer-image img {
@@ -55,20 +55,11 @@ p {
     font-size: 13px
 }
 
-#form-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 #hero-section a,  #offer-section button, #coaching-section a {
     border-radius: 20px;
     width: 140px;
-}
-
-#appointment-section button {
-    border-radius: 20px;
-    width: 210px;
 }
 
 
@@ -77,21 +68,6 @@ p {
     padding-bottom: 3%;
     font-size: 5px;
     text-align: center;
-}
-
-
-.registration-form{
-	padding: 30px 0;
-}
-
-.registration-form form{
-    background-color: #fff;
-    max-width: 600px;
-    margin: auto;
-    padding: 50px 70px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
 }
 
 
@@ -112,7 +88,5 @@ p {
     margin-top: 20px;
 }
 
-.top-hero button, #form-section button {
-    width: 418px;
-}
+
 
