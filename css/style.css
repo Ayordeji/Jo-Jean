@@ -5,11 +5,13 @@
 }
 
 h2 {
-    font-size: 50px  !important;
+    
+    font-size: clamp(2rem, 3.125vw, 3.125rem);
 }
 
 p {
-    font-size: 16px  !important;
+    
+    font-size: clamp(0.8rem, 2vw, 1.5rem);
 }
 
 .top-hero button, #form-section button {
@@ -63,14 +65,6 @@ p {
 }
 
 
-.footer-text p{
-    margin-top: 5%;
-    padding-bottom: 3%;
-    font-size: 5px;
-    text-align: center;
-}
-
-
 .registration-form .item{
 	border-radius: 20px;
     margin-bottom: 25px;
@@ -86,7 +80,16 @@ p {
     border: none;
     color: white;
     margin-top: 20px;
+    
+}
+
+.top-hero button, #form-section button {
+    /* width: 418px !important; */
+    width: clamp(140px, 200px, 418px);
 }
 
 
-
+.form_class {
+    /* width: 600px; */
+    width: clamp(50px 400vw, 600px);
+}
