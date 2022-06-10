@@ -20,32 +20,9 @@ p {
     width: 140px;
 }
 
-.col-lg-7 .top-hero {
+/* .col-lg-7 .top-hero {
     margin-top: 130px;
-}
-
-.top-image img {
-    width: 103%;
-}
-
-#offer-section {
-    background: #F7FFF6;
-    
-}
-
-.offer-image img {
-    width: 75%;
-}
-
-.coach-section {
-    width: 60%;
-    margin-left: 20%;
-}
-
-#customer-section {
-    background: #F7FFF6;
-    
-}
+} */
 
 .card {
     border: none;
@@ -83,9 +60,12 @@ p {
     
 }
 
-.top-hero button, #form-section button {
-    /* width: 418px !important; */
+ #form-section button {
     width: clamp(140px, 200px, 418px);
+}
+
+.top-hero button {
+    width: clamp(18rem, 93vw, 20rem);
 }
 
 
